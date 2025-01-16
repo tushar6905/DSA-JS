@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>head & tail Recursion</title>
+    <script>
+        // const colors=()=>{
+        //     let data=20;
+        //     console.log(data);
+        // }
+        // const days=()=>{
+        //     colors();
+        // }
+        // const fruits=()=>{
+        //     days()
+        // }
+        // const topFunction=()=>{
+        //     fruits()
+        // }
+
+        // topFunction();
+        const text =(x)=>{
+            // console.log(x);
+            if(x>0){
+                text(x-1)
+            }
+            console.log(x);
+            
+        }
+        text(5)
+
+    </script>
+</head>
+<body>
+    <h1>head & tail Recursion</h1>
+    
+</body>
+</html>
